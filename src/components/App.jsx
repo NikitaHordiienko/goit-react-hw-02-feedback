@@ -10,23 +10,6 @@ class App extends Component {
     neutral: 0,
     bad: 0
   }
-  
-  // onLeaveFeedback = event => {
-  //   switch (event.target.innerText)
-  //    {
-  //     case "Good":
-  //       this.setState((prevState) => ({ good: prevState.good + 1 }));
-  //       break;
-  //     case "Neutral":
-  //       this.setState((prevState) => ({ neutral: prevState.neutral + 1 }));
-  //       break;
-  //     case "Bad":
-  //       this.setState((prevState) => ({ bad: prevState.bad + 1 }));
-  //       break;
-      
-  //     default: new Error ('Wrong!')
-  //   }
-  // }
 
   onLeaveFeedback = event => {
     const label = event.target.textContent;
